@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Mobile App 001
+title = KorolevApp
 
 # (str) Package name
-package.name = mobileapp001
+package.name = KorolevApp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.wiseplat
+package.domain = Korolev.team
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -46,7 +46,7 @@ requirements = python3,kivy==2.0.0
 #presplash.filename = %(source.dir)s/data/logo/presplash512okmin.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/logo/logo512min.png
+icon.filename = %(source.dir)s/pic512_512.jpg
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = all
